@@ -24,15 +24,6 @@ total := Filearray.MaxIndex()
    Send, {Enter}
 Return
 
-^5::
-   clipboard = Hi everyone! I play Ana, Orisa, Roadhog, D.va, Winston, Hanzo, Genji, Doomfist and McCree. Whatcha Want?
-   ClipWait
-   Send, {Enter}
-   Sleep, 45
-   Send, ^v
-   Send, {Enter}
-Return
-
 Shift::
    Send, v
 Return
